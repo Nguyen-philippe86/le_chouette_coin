@@ -20,6 +20,6 @@
 <body>
 
     <?php
-    require 'includes/navbar.php';
+    require 'includes/nav_bar.php';
 ?>
     <div class="container">

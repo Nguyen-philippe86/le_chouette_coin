@@ -23,7 +23,7 @@
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><?php echo $_SESSION['username']; ?></a>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <a class="dropdown-item" href="profil.php">Profil</a>
-                    <a class="dropdown-item" href="addproducts.php">Ajouter un produit</a>
+                    <a class="dropdown-item" href="add_products.php">Ajouter un produit</a>
                     <hr>
                     <a class="dropdown-item" href="?logout">Déconnexion</a>
                 </div>
@@ -32,7 +32,7 @@
                 ?>
 
                 <li class="nav-item">
-                    <a href="signin.php" class="nav-link">S'identifier</a>
+                    <a href="sign_in.php" class="nav-link">S'identifier</a>
                 </li>
                 <?php
             }

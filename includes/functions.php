@@ -265,7 +265,7 @@ function affichageProduitsByUser($user_id)
             href="product.php?id=<?php echo $product['products_id']; ?>">Afficher</a>
     </td>
     <td> <a class="btn btn-outline-warning"
-            href="editproducts.php?id=<?php echo $product['products_id']; ?>">Editer</a>
+            href="edit_products.php?id=<?php echo $product['products_id']; ?>">Editer</a>
     </td>
 
     <td>

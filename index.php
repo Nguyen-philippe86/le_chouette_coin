@@ -10,7 +10,7 @@
         <?php
             if (!isset($_SESSION['id'])) {
                 ?>
-        <a href="signin.php" class="btn btn-primary mt-2">Se connecter !</a>
+        <a href="sign_in.php" class="btn btn-primary mt-2">Se connecter !</a>
         <?php
             }
         ?>
